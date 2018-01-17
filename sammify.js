@@ -8,7 +8,11 @@ if (process.argv.length > 3) {
   throw Error('One script Sammy-son, one script!');
 }
 
-require('babel-register');
 var path = require('path');
+require('babel-register')({
+  presets: [
+    [require.resolve('babel-preset-env')]
+  ]
+});
 
-require(path.resolve(__dirname, process.argv[2]));
+require(path.resolve(process.argv[2]));
