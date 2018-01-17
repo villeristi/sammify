@@ -1,0 +1,33 @@
+{
+  "name": "sammify",
+  "version": "1.0.0",
+  "description": "Sammifiy (ffss...) es6 on runtime",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/villeristi/sammify.git"
+  },
+  "keywords": [
+    "es6",
+    "babel"
+  ],
+  "author": "Wille",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/villeristi/sammify/issues"
+  },
+  "homepage": "https://github.com/villeristi/sammify#readme",
+  "bin": {
+    "sammify": "sammify.js"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0"
+  }
+}
