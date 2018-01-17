@@ -1,6 +1,6 @@
 {
   "name": "sammify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sammifiy (ffss...) es6 on runtime",
   "main": "index.js",
   "scripts": {},
